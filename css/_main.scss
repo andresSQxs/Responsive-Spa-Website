@@ -1,0 +1,106 @@
+.main{
+    .services{
+        background-color:rgb(228, 228, 228) ;
+        .container{
+            padding: 2rem 1.5rem ;
+            .servicios{
+                text-align: center;
+                color:rgb(51, 51, 51);
+                text-transform: uppercase;
+                font-size: 2rem ;
+                margin-top: 2rem ;
+            }
+            .grid{
+                .card{
+                    border-radius: 10px;
+                    overflow: hidden;
+                    margin-top: 2rem ;
+                    box-shadow: 0px 6px 12px  rgba(0,0,0,0.2);
+                    .websites{
+                        .img{
+                            display: block;
+                            object-fit: cover;
+                            height: 128px;
+                        }
+                    }
+                    .contenido{
+                        padding: 1rem ;
+                        border-top: 5px solid pink;
+                        background-color: #fff;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .projects{
+        .container{
+            padding:2rem 1.5rem ;
+            .proyectos{
+                text-align: center;
+                color:rgb(51, 51, 51);
+                text-transform: uppercase;
+                font-size: 2rem ;
+                margin-top: 2rem ;
+            }
+            .grid{
+                .componentes{
+                    margin-top: 3rem ;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    position:relative;
+                    border-radius: 10px;
+                    background-image: url('../images/project-img.jpg');
+                    .hover{
+                        padding: 1rem;                   
+                        background:rgba(64,39,68,0.8);
+                        opacity:0;
+                        transition:0.4s;
+                        &:hover{
+                            opacity: 1;
+                        }
+                        .white{
+                            color:#fff;
+                            text-transform: uppercase;
+                            font-size: 1.5rem;
+                        }
+                        .parrafo{
+                            color:#fff;
+                            margin-top: 1rem;
+                        }
+                        .learn{
+                            padding: .7rem;
+                            background-color:rgb(255, 146, 188) ;
+                            border-radius: 5px;
+                            width: 150px;
+                            margin-top:1.5rem;
+                            .rosa{
+                                display: block;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                color:#fff;
+                                font-weight: bold;
+                                text-align: center;
+                            }   
+                        }
+                    }
+                }
+            }
+            .more{
+                background-color:rgb(255, 146, 188) ;
+                margin: 0 auto;
+                margin-top:2rem;
+                text-align: center;
+                width: 150px;
+                padding:1rem;
+                border-radius: 10px ;
+                .view{
+                    text-transform: uppercase;
+                    font-weight:bold ;
+                    color:#fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

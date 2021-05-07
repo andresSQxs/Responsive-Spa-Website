@@ -1,0 +1,53 @@
+.piedepagina{
+    background-color:#9B75D7;
+    .container{
+        padding: 2rem 1.5rem ;
+        text-align: center;
+        .ct{
+            color:#fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 2rem;
+        }
+        .formulario{
+            margin-top:2.5rem;
+            .grid{
+                .as{
+                    margin-top: 1rem;
+                    .input{
+                        display: inline-block;
+                        width: 100%;
+                        padding: 1rem;
+                        border-radius: 5px;
+                        text-decoration: none;
+                    }
+                }
+                .asb{
+                    margin-top: 1rem;
+                    .center{
+                        display: inline-block;
+                        width: 100%;
+                        padding: 1rem;
+                        border-radius: 5px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .message{
+            background-color:rgb(255, 146, 188);
+            width: 180px;
+            border-radius: 10px;
+            margin: 1rem auto;
+            padding: 1rem;
+            .send{
+                text-align: center;
+                color:#fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+} 

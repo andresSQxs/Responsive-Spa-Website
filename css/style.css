@@ -1,0 +1,511 @@
+.header {
+  background-image: url(../images/header.jpg);
+  height: 684px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  background-color: #12002f;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header .container {
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+.header .container .info {
+  margin-top: 12rem;
+}
+
+.header .container .info .white {
+  color: #fff;
+}
+
+.header .container .info .white .pink {
+  color: #ff86b5;
+}
+
+.header .container .info .wb {
+  color: #fff;
+  font-weight: normal;
+}
+
+.header .container .info .rosa {
+  padding: .7rem;
+  background-color: #ff92bc;
+  border-radius: 5px;
+  width: 150px;
+  margin-top: 1.5rem;
+}
+
+.header .container .info .rosa .boton {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header .container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .flex .logo {
+  z-index: 1;
+}
+
+.header .container .flex .logo h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header .container .flex .logo h2 span {
+  font-weight: 600;
+}
+
+.header .container .flex .hamburger {
+  background-color: #fff;
+  width: 2rem;
+  height: 1.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, white), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, white), color-stop(60%, white), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, white));
+  background: linear-gradient(white 20%, transparent 20%, transparent 40%, white 40%, white 60%, transparent 60%, transparent 80%, white 80%);
+  z-index: 1;
+}
+
+.header .container .flex .nav {
+  position: fixed;
+  background-color: #12002f;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  right: -100vw;
+  padding-top: 10rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .container .flex .nav.show {
+  right: 0;
+}
+
+.header .container .flex .nav .link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.main .services {
+  background-color: #e4e4e4;
+}
+
+.main .services .container {
+  padding: 2rem 1.5rem;
+}
+
+.main .services .container .servicios {
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.main .services .container .grid .card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 2rem;
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.main .services .container .grid .card .websites .img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 128px;
+}
+
+.main .services .container .grid .card .contenido {
+  padding: 1rem;
+  border-top: 5px solid pink;
+  background-color: #fff;
+}
+
+.main .projects .container {
+  padding: 2rem 1.5rem;
+}
+
+.main .projects .container .proyectos {
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.main .projects .container .grid .componentes {
+  margin-top: 3rem;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("../images/project-img.jpg");
+}
+
+.main .projects .container .grid .componentes .hover {
+  padding: 1rem;
+  background: rgba(64, 39, 68, 0.8);
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .projects .container .grid .componentes .hover:hover {
+  opacity: 1;
+}
+
+.main .projects .container .grid .componentes .hover .white {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.main .projects .container .grid .componentes .hover .parrafo {
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.main .projects .container .grid .componentes .hover .learn {
+  padding: .7rem;
+  background-color: #ff92bc;
+  border-radius: 5px;
+  width: 150px;
+  margin-top: 1.5rem;
+}
+
+.main .projects .container .grid .componentes .hover .learn .rosa {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main .projects .container .more {
+  background-color: #ff92bc;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  width: 150px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.main .projects .container .more .view {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.piedepagina {
+  background-color: #9B75D7;
+}
+
+.piedepagina .container {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.piedepagina .container .ct {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.piedepagina .container .formulario {
+  margin-top: 2.5rem;
+}
+
+.piedepagina .container .formulario .grid .as {
+  margin-top: 1rem;
+}
+
+.piedepagina .container .formulario .grid .as .input {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.piedepagina .container .formulario .grid .asb {
+  margin-top: 1rem;
+}
+
+.piedepagina .container .formulario .grid .asb .center {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.piedepagina .container .message {
+  background-color: #ff92bc;
+  width: 180px;
+  border-radius: 10px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.piedepagina .container .message .send {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .header .container {
+    padding: 2rem 3.5rem;
+  }
+  .header .container .flex .hamburger {
+    display: none;
+  }
+  .header .container .flex .nav {
+    position: static;
+    width: auto;
+    height: auto;
+    top: 0;
+    background: transparent;
+    padding-top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .header .container .flex .nav .link {
+    display: inline-block;
+    margin: 0  .7rem;
+    font-size: 1.2rem;
+  }
+  .header .container .info .white {
+    font-size: 3rem;
+  }
+  .header .container .info .wb {
+    font-size: 2rem;
+  }
+  .header .container .info .rosa {
+    padding: 1rem;
+  }
+  .main .services .container {
+    padding: 2rem 3.5rem;
+  }
+  .main .services .container .servicios {
+    margin: 2.5rem;
+  }
+  .main .services .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .main .services .container .grid .card {
+    margin-top: 0;
+  }
+  .main .projects .container {
+    padding: 2rem 3.5rem;
+  }
+  .main .projects .container .proyectos {
+    margin: 2.5rem;
+  }
+  .main .projects .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .main .projects .container .grid .componentes {
+    margin-top: 0;
+  }
+  .piedepagina .container {
+    padding: 2rem 5rem;
+  }
+  .piedepagina .container .formulario .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .piedepagina .container .formulario .grid .as {
+    margin: 0 .5rem;
+    padding: 1rem 0;
+  }
+  .piedepagina .container .formulario .grid .as .input {
+    width: 100%;
+  }
+  .piedepagina .container .formulario .grid .asb {
+    margin: 0 .5rem;
+  }
+  .piedepagina .container .formulario .grid .asb .center {
+    width: 205%;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .header .container {
+    padding: 2rem 3.5rem;
+  }
+  .header .container .info .white {
+    font-size: 3rem;
+  }
+  .header .container .info .wb {
+    font-size: 2rem;
+  }
+  .header .container .info .rosa {
+    padding: 1rem;
+  }
+  .header .container .flex .nav .link {
+    font-size: 1.5rem;
+  }
+  .main .services .container {
+    padding: 2rem 3.5rem;
+  }
+  .main .services .container .servicios {
+    margin: 2.5rem;
+  }
+  .main .services .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .main .services .container .grid .card {
+    margin-top: 0;
+  }
+  .main .projects .container {
+    padding: 2rem 3.5rem;
+  }
+  .main .projects .container .proyectos {
+    margin: 2.5rem;
+  }
+  .main .projects .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .main .projects .container .grid .componentes {
+    margin-top: 0;
+  }
+  .piedepagina .container {
+    padding: 2rem 10rem;
+  }
+  .piedepagina .container .formulario .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .piedepagina .container .formulario .grid .as {
+    padding: 1rem 0;
+  }
+  .piedepagina .container .formulario .grid .as .input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1328px) {
+  .header .container {
+    padding: 1rem 6.5rem;
+  }
+  .header .container .flex .nav .link {
+    font-size: 1.2rem;
+  }
+  .main .services .container {
+    padding: 3.5rem 6.5rem;
+  }
+  .main .services .container .servicios {
+    margin: 2.5rem;
+  }
+  .main .services .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (1fr)[1];
+        grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .main .services .container .grid .card {
+    margin-top: 0;
+  }
+  .main .projects .container {
+    padding: 3.5rem 6.5rem;
+  }
+  .main .projects .container .proyectos {
+    margin: 2.5rem;
+  }
+  .main .projects .container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[1];
+        grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .main .projects .container .grid .componentes {
+    margin-top: 0;
+  }
+  .piedepagina .container {
+    padding: 3.5rem 20rem;
+  }
+  .piedepagina .container .formulario .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .piedepagina .container .formulario .grid .as {
+    margin: 0 .5rem;
+    padding: 1rem 0;
+  }
+  .piedepagina .container .formulario .grid .as .input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,252 @@
+@media screen and (min-width:768px){
+    .header{
+    .container{
+        padding:2rem 3.5rem;
+        .flex{
+            .hamburger{
+                display: none;
+            }
+            .nav{
+                position:static;
+                width: auto;
+                height: auto;
+                top:0;
+                background: transparent;
+                padding-top: 0;
+                right: 0;
+                left:0;
+                bottom: 0;
+                .link{
+                    display:inline-block;
+                    margin: 0  .7rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .info{
+            .white{
+                font-size: 3rem;
+            }
+            .wb{
+                font-size: 2rem;
+            }
+            .rosa{
+                padding:1rem;
+            }
+        }
+    }
+    }
+
+    .main{
+    .services{
+        .container{
+            padding: 2rem 3.5rem;
+            .servicios{
+                margin: 2.5rem;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 1rem;
+                .card{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .projects{
+        .container{
+            padding: 2rem 3.5rem ;
+            .proyectos{
+                margin: 2.5rem;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap:1rem;
+                .componentes{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    }
+
+
+    .piedepagina{
+    .container{
+        padding:2rem 5rem ;
+        .formulario{
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                .as{
+                    margin: 0 .5rem ;
+                    padding:1rem 0 ;
+                    .input{
+                        width: 100%;
+                    }
+                }
+                .asb{
+                    margin: 0 .5rem;
+                    .center{
+                        width: 205%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and(min-width:998px){
+    .header{
+        .container{
+            padding:2rem 3.5rem ;
+            .info{
+                .white{
+                    font-size: 3rem;
+                }
+                .wb{
+                    font-size: 2rem;
+                }
+                .rosa{
+                    padding:1rem;
+                }
+            }
+            .flex{
+                .nav{
+                    .link{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        }
+    
+        .main{
+        .services{
+            .container{
+                padding: 2rem 3.5rem;
+                .servicios{
+                    margin: 2.5rem;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 1rem;
+                    .card{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        .projects{
+            .container{
+                padding: 2rem 3.5rem ;
+                .proyectos{
+                    margin: 2.5rem;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    gap:1rem;
+                    .componentes{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        }
+    
+    
+        .piedepagina{
+        .container{
+            padding:2rem 10rem ;
+            .formulario{
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    .as{
+                        // margin: 0 .5rem ;
+                        padding:1rem 0;
+                        .input{
+                            width: 100%;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        }
+}
+@media screen and(min-width:1328px){
+    .header{
+        .container{
+            padding: 1rem 6.5rem;
+            .flex{
+                .nav{
+                    .link{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .main{
+        .services{
+            .container{
+                padding: 3.5rem 6.5rem;
+                .servicios{
+                    margin: 2.5rem;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    grid-template-rows: repeat(1,1fr);
+                    gap: 1rem;
+                    .card{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        .projects{
+            .container{
+                padding: 3.5rem 6.5rem ;
+                .proyectos{
+                    margin: 2.5rem;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: repeat(1,1fr);
+                    gap:1rem;
+                    .componentes{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    
+    .piedepagina{
+    .container{
+        padding:3.5rem 20rem ;
+        .formulario{
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                .as{
+                    margin: 0 .5rem ;
+                    padding:1rem 0 ;
+                    .input{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    }
+}
